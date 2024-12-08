@@ -67,7 +67,7 @@ loading service providers // bootstraping framework components (every major feat
  register() - // on each loaded provider
  boot()     - // on each loaded provider 
     | 
- bootstrap/providers.php // 3rd party service providers for self defining
+ bootstrap/providers.php // 3rd party service providers for self defining -> @see app/Providers -> AppServiceProvider
     |
  Router (handling request) // dispatch Request to a route or Controller, run route speciffic middleware
     |
