@@ -43,7 +43,7 @@ public/index.php
 bootstrap/app.php
 ```
 
-###  next steps (Kernel)
+###  next steps (Kernel) request lifecycle
 ```
 
 handleCommand - consoleKernel
