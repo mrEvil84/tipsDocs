@@ -83,5 +83,17 @@ loading service providers // bootstraping framework components (every major feat
     
 ```
 
+## migrations
+
+```
+./vendor/bin/sail artisan make:migration add_shopif_shop_id_column_to_aliases
+
+./vendor/bin/sail artisan artisan migrate:status
+
+./vendor/bin/sail artisan migrate --path=database/migrations/2024_12_11_101729_add_shopif_shop_id_column_to_aliases.php
+
+
+```
+
 
 
