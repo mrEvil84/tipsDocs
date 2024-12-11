@@ -95,5 +95,12 @@ loading service providers // bootstraping framework components (every major feat
 
 ```
 
+### seed specific file
+
+```
+php artisan db:seed --class=AdminSeeder
+```
+
+
 
 
