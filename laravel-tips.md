@@ -98,7 +98,21 @@ loading service providers // bootstraping framework components (every major feat
 ### seed specific file
 
 ```
+
 php artisan db:seed --class=AdminSeeder
+
+```
+
+### dump db
+
+```
+./vendor/bin/sail mysql > dump_db_19_12_2024.sql
+```
+
+### import db from dump
+
+```
+./vendor/bin/sail mysql << dump_db_19_12_2024.sql
 ```
 
 
